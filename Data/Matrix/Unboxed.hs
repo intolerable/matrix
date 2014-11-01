@@ -1,4 +1,3 @@
-
 -- | Matrix datatype and operations.
 --
 --   Every provided example has been tested.
