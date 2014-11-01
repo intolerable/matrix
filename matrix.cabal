@@ -34,7 +34,9 @@ Library
                , deepseq >= 1.3.0.0 && < 1.4
                , primitive >= 0.5 && < 0.6
                , loop >= 0.2
-  Exposed-modules: Data.Matrix
+  Exposed-modules:
+    Data.Matrix
+    Data.Matrix.Unboxed
   GHC-Options: -Wall -O2 -fstatic-argument-transformation
 
 Benchmark matrix-mult
